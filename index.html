@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Wedding Celebration</title>
+    <!-- Elegant Serif and Script Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content container">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#entourage">Entourage</a></li>
+                <li><a href="#attire">Attire</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero fade-in">
+        <div class="hero-content">
+            <p style="font-family: var(--font-heading); letter-spacing: 4px; color: var(--accent-gold); font-size: 0.9rem;">TOGETHER WITH THEIR FAMILIES</p>
+            <h1 class="script-title" style="font-size: 6rem; color: var(--accent-gold); line-height: 1.2; margin: 20px 0;">Joanne <span style="font-size: 3rem; font-family: var(--font-body);">&amp;</span><br>John Philip</h1>
+            <p style="font-family: var(--font-heading); letter-spacing: 3px; font-size: 0.8rem; margin-top: 30px; color: var(--accent-gold);">INVITE YOU TO JOIN THEIR<br>WEDDING CELEBRATION ON</p>
+            
+            <div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 30px; font-family: var(--font-heading); color: var(--accent-gold);">
+                <div style="text-align: right; text-transform: capitalize; font-size: 1.2rem;">Sunday</div>
+                <div style="border-left: 1px solid var(--accent-gold); border-right: 1px solid var(--accent-gold); padding: 0 20px;">
+                    <div style="font-size: 1.2rem; text-transform: capitalize;">June</div>
+                    <div style="font-size: 3rem; line-height: 1; font-weight: 500;">07</div>
+                    <div style="font-size: 1.2rem;">2026</div>
+                </div>
+                <div style="text-align: left; font-size: 1.2rem;">01:30 PM</div>
+            </div>
+            
+            <p style="font-family: var(--font-body); margin-top: 30px; font-size: 1.2rem; color: var(--accent-gold);">Mater Dolorosa Parish Church<br><span style="font-size: 0.9rem; font-style: italic;">Dolores, Capas, Tarlac</span></p>
+        </div>
+    </header>
+
+    <!-- Save the Date -->
+    <section class="section save-the-date fade-in">
+        <div class="container">
+            <h2>SAVE THE DATE</h2>
+            <p class="date">06.07.26</p>
+            <p>Join us to celebrate our new beginning.</p>
+            
+            <div id="countdown" class="countdown-container">
+                <div class="time-box"><span id="days">00</span><p>Days</p></div>
+                <div class="time-box"><span id="hours">00</span><p>Hours</p></div>
+                <div class="time-box"><span id="minutes">00</span><p>Minutes</p></div>
+                <div class="time-box"><span id="seconds">00</span><p>Seconds</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story (Arch Layout) -->
+    <section id="story" class="section fade-in" style="background-color: white;">
+        <div class="container">
+            <div class="arch-image-container">
+                <img src="couple_photo.png" alt="Couple Photo" class="arch-img">
+                <div class="story-text">
+                    <p class="script-title">Our Story</p>
+                    <h2 style="font-size: 2rem; color: var(--primary-burgundy); margin-bottom: 20px;">BLOOMED INTO FOREVER</h2>
+                    <p>It started with a simple hello and blossomed into a beautiful journey of love, faith, and shared adventures. We are so excited to gather our closest family and friends to witness the start of our greatest chapter yet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Break -->
+    <section class="banner fade-in">
+        <div class="container">
+            <h2>TOGETHER WITH OUR FAMILIES</h2>
+            <p>We invite you to celebrate our marriage.</p>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="details" class="section fade-in">
+        <div class="container">
+            <h2 class="text-center" style="font-size: 2.5rem; color: var(--primary-burgundy);">THE TIMELINE</h2>
+            <div class="timeline-grid">
+                <div class="timeline-item">
+                    <div class="timeline-time">1:30 PM</div>
+                    <div class="timeline-desc">Assembly</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">2:00 PM</div>
+                    <div class="timeline-desc">Ceremony</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-time">3:30 PM</div>
+                    <div class="timeline-desc">Reception</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations -->
+    <section class="locations-split fade-in">
+        <div class="location-box">
+            <p class="script-title" style="color: var(--primary-burgundy);">The Ceremony</p>
+            <h2>MATER DOLOROSA</h2>
+            <p>Dolores, Capas, Tarlac</p>
+            <p>Exactly 2:00 in the afternoon.</p>
+            <img src="https://quickchart.io/qr?text=https://maps.google.com/?q=Mater+Dolorosa+Parish+Dolores+Capas+Tarlac&size=200" alt="Map QR" class="qr-code">
+            <br>
+            <a href="#" class="btn">View on Map</a>
+        </div>
+        <div class="location-box dark">
+            <p class="script-title" style="color: white;">The Reception</p>
+            <h2 style="color: var(--accent-gold);">MR. BLUE INN</h2>
+            <p>Santo Domingo II, Capas, Tarlac</p>
+            <p>Join us to celebrate and have fun!</p>
+            <img src="https://quickchart.io/qr?text=https://maps.google.com/?q=Mr+Blue+Inn+Santo+Domingo+II+Capas+Tarlac&size=200" alt="Map QR" class="qr-code">
+            <br>
+            <a href="#" class="btn" style="color: white; border-color: white;">View on Map</a>
+        </div>
+    </section>
+
+    <!-- The Entourage -->
+    <section id="entourage" class="section fade-in" style="background-color: white;">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 60px;">
+                <h2 style="font-family: var(--font-script); font-size: 5rem; color: var(--primary-burgundy); font-weight: 400; text-transform: none; letter-spacing: normal;">Entourage</h2>
+            </div>
+            
+            <div class="entourage-list">
+                <div class="entourage-role">PARENTS OF the GROOM</div>
+                <div class="entourage-names">Mr. Felipe R. Suminta Jr. & Mrs. Jena S. Estavillo</div>
+            </div>
+            
+            <div class="entourage-list">
+                <div class="entourage-role">PARENTS OF the BRIDE</div>
+                <div class="entourage-names">Mr. Joel D. Salas & Mrs. Mary Jane G. Salas</div>
+            </div>
+
+            <div class="entourage-list">
+                <div class="entourage-role">PRINCIPAL SPONSORS</div>
+                <div class="entourage-grid">
+                    <div>Dir. Allan G. Bermudez</div>
+                    <div>Mrs. Josefina Y. Baquing</div>
+                    <div>Hon. Tim D. Balmores</div>
+                    <div>Mrs. Maribel S. Tandoc</div>
+                    <div>Engr. Rodolfo T. Placido</div>
+                    <div>Ms. Jessica R. Suminta</div>
+                    <div>Mr. Angelito E. Dizon</div>
+                    <div>Mrs. Marites B. Dagdagan</div>
+                </div>
+            </div>
+
+            <div class="entourage-list" style="display: flex; justify-content: space-around; max-width: 600px; margin: 0 auto 60px;">
+                <div>
+                    <div class="entourage-role">BEST MAN</div>
+                    <div class="entourage-names">Mr. James Vernon M. Sumaoang</div>
+                </div>
+                <div>
+                    <div class="entourage-role">MAID OF HONOR</div>
+                    <div class="entourage-names">Ms. Joyce G. Salas</div>
+                </div>
+            </div>
+
+            <div class="entourage-list">
+                <div class="entourage-role">GROOMSMEN</div>
+                <div class="entourage-grid">
+                    <div>Jason Suminta</div>
+                    <div>Lynuel Juneo Alegado</div>
+                    <div>Arvey Jomari Abril</div>
+                    <div>Loreto Lone</div>
+                </div>
+            </div>
+
+            <div class="entourage-list">
+                <div class="entourage-role">BRIDESMAIDS</div>
+                <div class="entourage-grid">
+                    <div>Princes Joy Estavillo</div>
+                    <div>Jenelyn Salas</div>
+                    <div>Jillian Salas</div>
+                    <div>Jea Marie Banag</div>
+                </div>
+            </div>
+
+            <div class="entourage-list">
+                <div class="entourage-role">SECONDARY SPONSORS</div>
+                <div class="entourage-grid">
+                    <div><strong>Coin Bearer</strong><br>Joe Suminta</div>
+                    <div><strong>Ring Bearer</strong><br>Lenmel Jazz Salas</div>
+                    <div><strong>Bible Bearer</strong><br>Rain Claude Banag</div>
+                    <div><strong>Flower Girls</strong><br>Dharlin Zoe Domingo<br>Sofia Romey Banag</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attire & Guide -->
+    <section id="attire" class="section fade-in">
+        <div class="container text-center">
+            <h2 class="script-title" style="font-size: 4.5rem; color: var(--primary-burgundy); text-transform: none; margin-bottom: 30px;">Finer Details</h2>
+            
+            <div style="margin: 40px 0;">
+                <h3 style="color: var(--primary-burgundy); font-size: 1.2rem;">ATTIRE GUIDE</h3>
+                <br>
+                <h4 style="color: var(--primary-burgundy); font-family: var(--font-heading);">PRINCIPAL SPONSORS</h4>
+                <p style="font-family: var(--font-heading); font-size: 0.9rem; margin-bottom: 10px;">FORMAL ATTIRE</p>
+                <p><strong>Ninangs:</strong> Long gown in Beige or Gold<br><strong>Ninongs:</strong> Long-sleeved Barong & Black Pants</p>
+                <br>
+                <h4 style="color: var(--primary-burgundy); font-family: var(--font-heading);">GUESTS</h4>
+                <p style="font-family: var(--font-heading); font-size: 0.9rem; margin-bottom: 10px;">SEMI FORMAL ATTIRE</p>
+                <p>We encourage you to dress according to our color motif.</p>
+                
+                <div class="color-palette">
+                    <div class="color-swatch" style="background-color: #800020;"></div>
+                    <div class="color-swatch" style="background-color: #99334d;"></div>
+                    <div class="color-swatch" style="background-color: #D4AF37;"></div>
+                    <div class="color-swatch" style="background-color: #ebd68a;"></div>
+                    <div class="color-swatch" style="background-color: #2C2A29;"></div>
+                </div>
+            </div>
+
+            <div style="margin: 60px 0;">
+                <h3 style="color: var(--accent-gold);">SHARE YOUR MEMORIES</h3>
+                <p>We want to see the wedding from your perspective! Please upload your photos to our shared album.</p>
+                <a href="#" class="btn" style="margin-top: 20px;">Upload Photos Here</a>
+            </div>
+            
+            <div style="margin: 60px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
+                <h3 style="color: var(--accent-gold);">A NOTE ON GIFTS</h3>
+                <p>With all that we have, we have been truly blessed. If you're thinking of giving us gifts to help us on our way, a monetary gift would really make our day. Regardless of what you decide to do, know that the most important gift you can bring is yourself.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP -->
+    <section id="rsvp" class="banner fade-in">
+        <div class="container">
+            <h2>KINDLY RSVP</h2>
+            <p>WE HAVE RESERVED 2 SEATS FOR YOU.</p>
+            <p>Please confirm your attendance by sending a reply thru Facebook Messenger on or before May 17, 2026.</p>
+            <p><strong>Messenger: Joanne Salas / John Philip Estavillo</strong></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026. WE CAN'T WAIT TO CELEBRATE WITH YOU.</p>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+    <script>
+        // Simple fade-in script tailored for this layout
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
